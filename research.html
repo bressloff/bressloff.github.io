@@ -46,7 +46,7 @@
 
 <style>
         div {
-            width: 600px;
+            width: 800px;
         }
 
 h1,h3,h4 {
@@ -85,16 +85,21 @@ h1,h3,h4 {
 <h2>Current research topics</h2>
 
 <h3>Stochastic interacting particle systems</h3>
-<p>Broadly speaking, my research concerns the mathematical structures and biophysical principles underlying cellular and multicellular function. In addition to applying mathematics to solve biological problems, I use biology as a source of inspiration for developing new mathematics. My work draws upon a wide range of theoretical tools: PDEs, probability theory and stochastic processes, non-equilibrium statistical physics, dynamical systems theory, and nonlinear patterns and waves.</p> 
+<p>A wide range of phenomena in the natural and social sciences involve large systems of interacting particles, including plasmas, collections of galaxies, coupled oscillators, spiking neural networks, cell aggregations, animal flocking, and economic ``agents'.Important examples of interacting particle systems, include the Kuramoto model of coupled phase oscillators, spiking neural networks, and active matter. Kinetic methods for reducing the complexity of such systems typically involve the derivation of a nonlinear and nonlocal Fokker-Planck equation for the population density in the mean field limit, which is known as a McKean-Vlasov (MV) equation. One of the important features of MV equations is that they can exhibit phase transitions not seen in the corresponding finite particle system. There exist rigorous methods for deriving the MV equation based on so-called "propagation of chaos." A more heuristic derivation is based on Ito's lemma and the construction of weak solutions (the so-called Dean-Kawasaki method). We are currently extending this approach to include non-trivial features such as stochastic resetting, partially absorbing boundaries, and active switching.</p> 
 
 
-<img src="QS.pdf"  height="350"   align="center"><br>
+<img src="examples.pdf"  height="350"   align="center"><br>
 					
 <hr>
             
 
 <h3>Active phase separation and protein aggregation</h3>
-<p>Broadly speaking, my research concerns the mathematical structures and biophysical principles underlying cellular and multicellular function. In addition to applying mathematics to solve biological problems, I use biology as a source of inspiration for developing new mathematics. My work draws upon a wide range of theoretical tools: PDEs, probability theory and stochastic processes, non-equilibrium statistical physics, dynamical systems theory, and nonlinear patterns and waves.</p> 
+<p>Liquid-liquid phase separation plays a major role in the formation and maintenance of various membrane-less subcellular structures in the cytoplasm and nucleus of cells. Biological condensates contain enhanced concentrations of proteins and RNA, many of which can be continually exchanged with the surrounding medium. Coarsening is an important step in the kinetics of phase separation, whereby an emulsion of polydisperse condensates transitions to a single condensate in thermodynamic equilibrium with a surrounding dilute phase. A key feature of biological phase separation is the co-existence of multiple condensates over significant time scales, which is consistent with experimental observations showing a slowing of coarsening rates. Various hypotheses have been given to account for this slowing. One example is actively driven chemical reactions that maintain the out-of-equilibrium switching of proteins between soluble and phase separating forms. Another example is the mechanical suppression of coarsening mediated by intracellular visco-elastic networks such as the cytoskeleton. A third possible mechanism is the slow conversion of molecular constituents between the dilute and dense phases, which is regulated by various protein assemblies that associate with an interface. </p>
+
+<p> Exploiting the fact that biological condensates tend to be much smaller than the size of a cel, we analyze active phase separation within the framework of diffusion in singularly perturbed domains. The latter is a powerful analytical method for solving two-dimensional (2D) and three-dimensional (3D) diffusion problems in domains where small holes or perforations have been removed from the interior. Applications range from modeling intracellular diffusion, where interior holes could represent subcellular structures such as organelles or biological condensates, to tracking the spread of chemical pollutants or heat from localized sources. In the case of biological condensates, the holes correspond to dense-phase droplets. The analysis proceeds by partitioning the cell or nucleus into a set of inner regions around each cluster, and an outer region where mean-field interactions occur. Asymptotically matching the inner and outer stationary solutions, generates an asymptotic expansion of the particle concentration in the low density phase, which includes higher-order corrections to  mean-field theory that depend on the positions of the droplets and the geometry of the domain.</p> 
+
+<p>We are also applying the theory of diffusion in singularly perturbed domains to protein aggregation during the formation of large-scale molecular assemblies within cell membranes. Examples of such assemblies include lipid rafts, and postsynaptic domains (PSDs) at excitatory and inhibitory synapses in neurons. PSDs are rich in scaffolding proteins that can transiently trap transmembrane neurotransmitter receptors, thus localizing them at specific spatial positions. Hence, PSDs play a key role in determining the strength of synaptic connections and their regulation during learning and memory.</p>
+
 
 <img src="schema.pdf"  height="350"   align="center"><br>
 					
@@ -103,7 +108,7 @@ h1,h3,h4 {
 
 
 <h3>Encounter-based models of diffusion in partially absorbing domains</h3>
-<p>Broadly speaking, my research concerns the mathematical structures and biophysical principles underlying cellular and multicellular function. In addition to applying mathematics to solve biological problems, I use biology as a source of inspiration for developing new mathematics. My work draws upon a wide range of theoretical tools: PDEs, probability theory and stochastic processes, non-equilibrium statistical physics, dynamical systems theory, and nonlinear patterns and waves.</p> 
+<p>Understanding the diffusion of particles in reactive media is a problem of general mathematical interest, with a wide range of applications in the physical and life sciences. Encounter-based methods provide a general probabilistic framework for modelling absorption on the surface or interior of a target. An absorption event occurs when the contact time with the target exceeds a random threshold. If the probability distribution of the latter is an exponential function, then one recovers the Markovian example of absorption at a constant rate, whereas a non-exponential distribution signifies non-Markovian absorption. In the case of a partially absorbing target interior (surface) the contact time is given by a Brownian functional known as the occupation time (boundary local time). We are applying encounter-based methods to a wide range of diffusive and active transport processes, including search processes with stochastic resetting, anomalous diffusion, active run-and-tumble particles, and interacting particle systems.</p>
 
 <img src="schemaA.pdf"  height="350"   align="center"><br>
 					
@@ -111,7 +116,7 @@ h1,h3,h4 {
             
 
     <h3>Stochastic models of diffusion through semi-permeable membranes</h3>
-<p>Broadly speaking, my research concerns the mathematical structures and biophysical principles underlying cellular and multicellular function. In addition to applying mathematics to solve biological problems, I use biology as a source of inspiration for developing new mathematics. My work draws upon a wide range of theoretical tools: PDEs, probability theory and stochastic processes, non-equilibrium statistical physics, dynamical systems theory, and nonlinear patterns and waves.</p> 
+<p>Diffusion through semipermeable interfaces has a wide range of applications, including molecular transport through biological membranes, reverse osmosis, synaptic receptor trafficking, and drug delivery. We have developed a probabilistic model of interfacial diffusion based on snapping out Brownian motion (BM). The latter sews together successive rounds of partially reflecting BMs that are restricted to either side (U or V) of a semipermeable interface S. Each round is killed (absorbed) at the interface when its Brownian local time exceeds a random threshold. (The local time is a Brownian functional that keeps track of the amount of contact between a diffusing particle and a boundary surface.) A new round is then immediately started in U with probability p or V with probability 1-p. If p ≠ 1/2 (directed transport), then there is a discontinuity in the chemical potential across the interface. The probability density for snapping out BM satisfies a renewal equation that relates the full density to the probability densities of partially reflected BM on either side of the interface. In the case of an exponentially distributed local time threshold, the solution of the renewal equation satisfies the classical diffusion equation for a semi-permeable membrane with constant permeability. On the other hand, if the threshold distribution is non-exponential, then the resulting permeability is a time-dependent function that tends to be heavy-tailed. Another project is concerned with the stochastic thermodynamics of diffusion across a semipermeable interface.  </p> 
 
 <img src="schemaB.pdf"  height="350"   align="center"><br>
 
@@ -119,7 +124,7 @@ h1,h3,h4 {
 <hr>
 
 <h3>Cytoneme-based morphogenesis and viral spread</h3>
-<p>Broadly speaking, my research concerns the mathematical structures and biophysical principles underlying cellular and multicellular function. In addition to applying mathematics to solve biological problems, I use biology as a source of inspiration for developing new mathematics. My work draws upon a wide range of theoretical tools: PDEs, probability theory and stochastic processes, non-equilibrium statistical physics, dynamical systems theory, and nonlinear patterns and waves.</p> 
+<p>Morphogen protein gradients play an essential role in the spatial regulation of patterning during embryonic development.  The most commonly accepted mechanism of protein gradient formation involves the diffusion and degradation of morphogens from a localized source. Recently, an alternative mechanism has been proposed, which is based on cell-to-cell transport via thin, actin-rich cellular extensions known as cytonemes. It has been hypothesized that cytonemes find their targets via a random search process based on alternating periods of retraction and growth, perhaps mediated by some chemoattractant. This is an actin-based analog of the search-and-capture model of microtubules of the mitotic spindle searching for cytochrome binding sites (kinetochores) prior to separation of cytochrome pairs. We have developed a search-and-capture model of cytoneme-based morphogenesis, in which nucleating cytonemes from a source cell dynamically grow and shrink until making contact with a target cell and delivering a burst of morphogen. Renewal theory can be used to calculate the splitting probabilities and conditional mean first passage times (MFPTs) for the cytoneme to be captured by a given target cell. Moreover, it can be shown that multiple rounds of search-and-capture, morphogen delivery, cytoneme retraction and nucleation events lead to the formation of a morphogen gradient. This can be achieved by formulating the morphogen bursting model as a queuing process, analogous to the study of translational bursting in gene networks. We end by briefly discussing current work on a model of cytoneme-mediated within-host viral spread.</p> 
 
 <img src="schemaC.pdf"  height="350"   align="center"><br>
 					
